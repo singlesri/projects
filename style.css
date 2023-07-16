@@ -1,12 +1,20 @@
-h1{
+* /*
+h1 {
     font-family: 'EB Garamond', serif;
     font-family: 'Lora', serif;
-    background-color: antiquewhite;
-}
+}*/
 
-p{
+p {
     font-family: 'Lora', serif;
     font-weight: 700;
     font-size: large;
     font-stretch: wider;
+}
+
+.intro {
+    background-color: peachpuff;
+}
+
+.text-violet {
+    color: violet;
 }
