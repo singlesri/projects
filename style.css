@@ -46,3 +46,11 @@ p span {
     color: #fff;
 }
 
+.intro button {
+    color: #bc10f5;
+    background-color: #000;
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
