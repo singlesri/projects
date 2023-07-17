@@ -1,6 +1,7 @@
-* h1 {
+/*.headding {
     font-family: 'EB Garamond', serif;
     font-family: 'Lora', serif;
+    border: #bc10f5;
 }
 
 p {
@@ -9,7 +10,7 @@ p {
     font-size: large;
     font-stretch: wider;
 }
-/*
+
 .intro {
     
     background-image:url(./assets/wallpaperflare.com_wallpaper.jpg);
@@ -18,20 +19,30 @@ p {
     background-size: cover;
 }
 */
+
+.head {
+    border-color: #bc10f5;
+}
+
 .intro {
     width: 100%;
     height: 850px;
     background-image: url('assets/wallpaperflare.com_wallpaper.jpg');
     background-size: 100% 100%;
-    border: 1px solid red;
 }
 
 .intro h1 {
     color: #fff;
-    border: dashed;
+    border: solid;
+    border-color: #bc10f5;
 }
 
-.text-white {
+.intro p {
     color: #fff;
 }
 
+/*
+.text-white {
+    color: #fff;
+}
+*/
