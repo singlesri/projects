@@ -91,3 +91,23 @@ p span {
     outline-style: double;
     background-color: #bc10f5;
 }
+
+.text_formatting h1 {
+    font-weight: bold;
+    text-shadow: 3px 2px #000;
+    text-align: center;
+}
+
+.text_formatting {
+    padding: 30px;
+    background-color: #bc10f5;
+    text-align: justify;
+    text-decoration: underline;
+
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 0.1px;
+    line-height: 2;
+    direction: ltr;
+    word-spacing: 3px;
+}
