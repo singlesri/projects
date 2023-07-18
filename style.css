@@ -49,7 +49,7 @@ p span {
 }
 
 .intro button {
-    height: 20px;
+    height: 40px;
     width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -65,5 +65,29 @@ p span {
 .intro img {
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 50px;
 }
 
+.testimonial h1 {
+    font-weight: bold;
+}
+
+.testimonial {
+    padding: 30px;
+    width: 700px;
+    height: auto;
+    max-width: 700;
+    background-color: #bc10f5;
+}
+
+.outline h1 {
+    font-weight: bold;
+}
+
+.outline {
+    padding: 30px;
+    border: 2px solid #000;
+    outline: 5px solid #808080;    
+    outline-style: double;
+    background-color: #bc10f5;
+}
