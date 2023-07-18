@@ -140,3 +140,27 @@ p span {
 .links a:active {
     color: blue;
 }
+
+.facebook {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background-color: #4267B2;
+}
+
+.google {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background-color: #DB4437;
+}
+
+.twitter {
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background-color: #1da1f2;
+}
