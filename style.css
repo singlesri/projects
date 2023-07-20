@@ -211,5 +211,31 @@ ol li {
 }
 
 table {
+    border-collapse: collapse;
     width: 100%;
+    text-align: center;
+
 }
+
+table {
+    border: 1px solid #fff;
+}
+
+th {
+    font-size: 28px;
+    padding: 15px;
+    background-color: #bc10f5;
+}
+
+td{
+    padding: 15px;
+}
+
+tr:hover {
+    background-color: #1f261f;
+}
+
+tr:nth-child(even) {
+    background-color: #1f261f;
+}
+
