@@ -239,3 +239,10 @@ tr:nth-child(even) {
     background-color: #1f261f;
 }
 
+ul li a {
+    color: green;
+}
+
+li {
+    display: inline;
+}
