@@ -246,3 +246,8 @@ ul li a {
 li {
     display: inline;
 }
+
+ul li a {
+    color: white;
+    display: inline;
+}
