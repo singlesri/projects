@@ -251,3 +251,30 @@ ul li a {
     color: white;
     display: inline;
 }
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.static {
+    position: static;
+    border: 3px solid lime;
+}
+
+.relative {
+    position: relative;
+    left: 20%;
+    border: 3px solid lime;
+    
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #73ad21;
+    border: 3px solid lime;
+}
