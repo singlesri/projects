@@ -278,3 +278,27 @@ ul li a {
     background: #73ad21;
     border: 3px solid lime;
 }
+
+.relatives {
+    left: 40%;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 3px solid lime;
+}
+
+.absolute {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    border: 3px solid lime;   
+}
+
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    border: 3px solid lime;   
+    background: #73ad21;
+    padding: 20px;
+}
