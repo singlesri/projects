@@ -31,7 +31,7 @@
 
 .checkBtn {
     cursor: pointer;
-    font-size: 30px;
+    font-size: 0px;
     float: right;
     color: #ed1e79;
     line-height: 80px;
@@ -48,7 +48,7 @@
     color: white;
     cursor: pointer;
     text-decoration: none;
-    transition: all 1s;
+    transition: all 2s;
 }
 
 .right ul li a:hover {
