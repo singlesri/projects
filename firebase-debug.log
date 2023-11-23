@@ -1,0 +1,47 @@
+[debug] [2023-11-23T15:43:42.834Z] ----------------------------------------------------------------------
+[debug] [2023-11-23T15:43:42.836Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\srinithish\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-23T15:43:42.837Z] CLI Version:   12.9.1
+[debug] [2023-11-23T15:43:42.837Z] Platform:      win32
+[debug] [2023-11-23T15:43:42.837Z] Node Version:  v20.9.0
+[debug] [2023-11-23T15:43:42.837Z] Time:          Thu Nov 23 2023 21:13:42 GMT+0530 (India Standard Time)
+[debug] [2023-11-23T15:43:42.837Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-23T15:43:42.908Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-23T15:43:42.908Z] > authorizing via signed-in user (srinithish0143@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\srinithish
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-23T15:44:12.319Z] Using project from CLI flag: food-login-page
+[debug] [2023-11-23T15:44:12.320Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/food-login-page [none]
+[debug] [2023-11-23T15:44:12.766Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/food-login-page 200
+[debug] [2023-11-23T15:44:12.766Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/food-login-page {"projectId":"food-login-page","projectNumber":"564472894569","displayName":"Food login Page","name":"projects/food-login-page","resources":{"hostingSite":"food-login-page"},"state":"ACTIVE","etag":"1_34b680ca-7095-434d-b91a-0d343ab90148"}
+[info] i  Using project food-login-page (Food login Page) 
+[info] 
+=== Hosting Setup
+[debug] [2023-11-23T15:44:12.770Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/food-login-page [none]
+[debug] [2023-11-23T15:44:13.136Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/food-login-page 200
+[debug] [2023-11-23T15:44:13.136Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/food-login-page {"projectId":"food-login-page","projectNumber":"564472894569","displayName":"Food login Page","name":"projects/food-login-page","resources":{"hostingSite":"food-login-page"},"state":"ACTIVE","etag":"1_34b680ca-7095-434d-b91a-0d343ab90148"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
