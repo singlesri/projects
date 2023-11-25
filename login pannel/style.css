@@ -4,7 +4,7 @@
 :root {
   --white-color: hsl(0, 0%, 100%);
   --black-color: hsl(0, 0%, 0%);
- 
+
   --body-font: "Poppins", sans-serif;
   --h1-font-size: 2rem;
   --normal-font-size: 1rem;
@@ -66,7 +66,7 @@ img {
   margin-bottom: 1.25rem;
 }
 
-.login__inputs, 
+.login__inputs,
 .login__box {
   display: grid;
 }
@@ -85,7 +85,7 @@ img {
   border-radius: 4rem;
 }
 
-.login__input, 
+.login__input,
 .login__button {
   border: none;
   outline: none;
@@ -106,7 +106,7 @@ img {
   font-size: 1.25rem;
 }
 
-.login__check, 
+.login__check,
 .login__check-box {
   display: flex;
   justify-content: space-between;
@@ -166,10 +166,12 @@ img {
   .login {
     justify-content: center;
   }
+
   .login__form {
     width: 420px;
     padding-inline: 2.5rem;
   }
+
   .login__title {
     margin-bottom: 2rem;
   }
