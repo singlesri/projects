@@ -1,10 +1,14 @@
-var color = "Green"
+var score = 71
 
-if(color == "red")
+if(score<=50)
 {
-    console.log("Stop")
+    console.log("You need to improve")
 }
-else
+else if(score>50 && score<=70)
 {
-    console.log("Go")
+    console.log("Good Job")
+}
+else if(score>70)
+{
+    console.log("Excellent")
 }
