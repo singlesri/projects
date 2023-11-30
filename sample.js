@@ -1,3 +1,10 @@
-console.log(false && false)
-console.log(true && true)
-console.log(true || false)
+var color = "Green"
+
+if(color == "red")
+{
+    console.log("Stop")
+}
+else
+{
+    console.log("Go")
+}
