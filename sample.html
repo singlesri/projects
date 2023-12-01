@@ -1,28 +1,30 @@
-<h1>Guess the number</h1>
-<input id="guessnumber">
-<button onclick="check()">Check</button>
-<p id="result">You are Wrong/Right</p>
-<p id="score">Score:0</p>
+<style>
+    div{
+        position: relative;
+        height: 100vh;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+<div>
+    <input id="inputbox" onkeyup="update()"><br>
+    <div>
+        <h1 id="result"></h1>
+    </div>
+</div>
 
 <script>
-    var guessnumber = document.getElementById("guessnumber")
+    var inputbox=document.getElementById("inputbox")
     var result = document.getElementById("result")
-    var randomNumber = Math.floor(Math.random()*10)+1
-    var score = document.getElementById("score")
-    var totalscore=0
-    function check()
+
+    function update()
     {
-        var enterednumber = guessnumber.value
-        if(randomNumber==enterednumber)
-        {
-            totalscore=totalscore+1
-            score.textContent="score:"+totalscore
-            console.log("Right")
-            result.textContent="Right"
-            alert("You Won")
-        }
-        else{
-            result.textContent="Wrong"
-        }
+        result.textContent=inputbox.value
     }
 </script>
