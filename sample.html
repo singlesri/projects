@@ -1,30 +1,14 @@
-<style>
-    div{
-        position: relative;
-        height: 100vh;
-        display: grid;
-        align-items: center;
-        justify-content: center;
-    }
-    h1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-</style>
-<div>
-    <input id="inputbox" onkeyup="update()"><br>
-    <div>
-        <h1 id="result"></h1>
-    </div>
-</div>
+<button onclick="update()">Add</button>
+<div id="result"></div>
 
 <script>
-    var inputbox=document.getElementById("inputbox")
-    var result = document.getElementById("result")
-
+    //select h1
+    var div=document.getElementById("result")
     function update()
     {
-        result.textContent=inputbox.value
+        //create new element
+        var listitem=document.createElement("h1")
+        listitem.textContent="Hello"
+        div.append(listitem)
     }
 </script>
