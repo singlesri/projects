@@ -24,7 +24,7 @@ const getXY = (e) => {
   touchY = e.touches[0].pageY - rectTop;
 };
 
-const createGrid = () => {
+const createGrid = () => {+
   for (let i = 0; i < rows; i++) {
     for (let j = 0; j < columns; j++) {
       const boxDiv = document.createElement("div");

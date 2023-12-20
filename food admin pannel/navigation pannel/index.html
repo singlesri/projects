@@ -9,14 +9,14 @@
 </head>
 <body>
     <!--sidebar-->
-    <div class="--sidebar--"><kbd>
+    <div class="sidebar">
         <!--logo-->
         <h1 class="logo">FoodTime</h1>
 
         <!--list of menus-->
-        <div class="sidebar-meus">
+        <div class="sidebar-menus">
             <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
-            <a href="#"><ion-icon name="receipt-outlien"></ion-icon>Bills</a>
+            <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
             <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
             <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notification</a>
             <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact us</a>
@@ -24,9 +24,50 @@
         </div>
         <!--Logout-->
         <div class="sidebar-logout">
-            <a href="#"><ion-icons name="log-out-outline"></ion-icons></a>
+            <a href="#"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
         </div>
-    </kbd></div>
+    </div>    
+
+    <!-- main -->
+    <div class="main">
+        <!-- main navbar -->
+        <div class="main-navbar">
+            <!-- menu when appear on mobile version -->
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <!-- serch bar -->
+            <div class="search">
+                <input type="text" placeholder="What you want to eat?">
+                <button class="search-btn">Search</button>
+            </div>
+            <!-- profile icon on left side of navbar -->
+            <div class="profile">
+                <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+                <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>       
+            </div>
+        </div>
+        <!-- main highlight -->
+        <div class="main-highlight">
+            <!-- title section and arrow -->
+            <div class="main-header">
+                <h2 class="main-title">Recommendations</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+            <!-- highlight menu -->
+            <div class="highlight-wrapper">
+                <div class="highlight-card">
+                    <img src="images/salad.jpg" alt="" class="highlight-img">
+                    <div class="highlight-desc">
+                        <h4>Fresh Salad</h4>
+                        <p>$42</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main menus / order -->
+    </div>
 </body>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
